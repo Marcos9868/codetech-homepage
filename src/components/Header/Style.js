@@ -4,8 +4,9 @@ export const Container = styled.div`
   display: flex;
   width: 100%;
   height: 5.5rem;
-  background-color: #f7f8f5;
-  border: 2px solid red;
+  background-color: #121212;
+  color: #f5f5f5;
+  /* border: 2px solid red; */
   justify-content: space-around;
   align-items: center;
 `;
@@ -31,4 +32,19 @@ export const Menu = styled.div`
   outline: none;
   text-decoration: none;
   gap: 2.5rem;
+`;
+
+export const MenuOptions = styled.div`
+  a {
+    list-style: none;
+    outline: none;
+    text-decoration: none;
+    cursor: pointer;
+    color: #f5f5f5;
+    transition: 0.3s all;
+
+    &:hover {
+      color: green;
+    }
+  }
 `;
