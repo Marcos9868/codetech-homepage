@@ -1,12 +1,13 @@
 import React from 'react'
-import { Container, Menu } from './Style'
+import { Container, ContainerLogo, Logo, Menu } from './Style'
+import LogoCodetech from '../../assets/Logo-Codetech.jpeg'
 
 function Header() {
   return (
     <Container>
-      <section>
-        <h1>Logo Codetech</h1>
-      </section>
+      <ContainerLogo>
+        <Logo src={LogoCodetech} alt="" />
+      </ContainerLogo>
       <section>
         <Menu>
           <li>Quem Somos</li>
