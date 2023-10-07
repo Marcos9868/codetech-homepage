@@ -10,6 +10,19 @@ export const Container = styled.div`
   align-items: center;
 `;
 
+
+export const ContainerLogo = styled.section`
+  display: flex;
+  justify-content: center;
+  align-items: center;
+`;
+
+export const Logo = styled.img`
+  width: 6.5rem;
+  height: 5.5rem;
+  align-items: center;
+`;
+
 export const Menu = styled.div`
   display: flex;
   justify-content: space-evenly;
