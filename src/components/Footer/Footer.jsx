@@ -7,11 +7,11 @@ function Footer() {
     <Container>
       <ContainerSocialMedia>
         <SocialMedia>
-          <a>
+          <a href='https://www.linkedin.com/company/codetech-solucoes-em-software/'>
             <AiFillLinkedin />
             Linkedin
           </a>
-          <a>
+          <a href=''>
             <AiFillFacebook />
             Facebook
           </a>
