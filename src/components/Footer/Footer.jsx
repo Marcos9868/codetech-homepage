@@ -1,18 +1,26 @@
 import React from 'react'
+import { AiFillLinkedin, AiFillFacebook } from 'react-icons/ai';
+import { Container, ContainerSocialMedia, SocialMedia } from './Style'
 
 function Footer() {
   return (
-    <div>
-      <section>
-        <ul>
-          <li>Linkedin</li>
-          <li>Facebook</li>
-        </ul>
-      </section>
+    <Container>
+      <ContainerSocialMedia>
+        <SocialMedia>
+          <a>
+            <AiFillLinkedin />
+            Linkedin
+          </a>
+          <a>
+            <AiFillFacebook />
+            Facebook
+          </a>
+        </SocialMedia>
+      </ContainerSocialMedia>
       <section>
         <p>&copy;2023 Todos os direitos reservados</p>
       </section>
-    </div>
+    </Container>
   )
 }
 
