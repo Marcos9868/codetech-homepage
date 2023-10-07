@@ -6,4 +6,16 @@ export const Container = styled.div`
   height: 5.5rem;
   background-color: #f7f8f5;
   border: 2px solid red;
+  justify-content: space-around;
+  align-items: center;
+`;
+
+export const Menu = styled.div`
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  list-style: none;
+  outline: none;
+  text-decoration: none;
+  gap: 2.5rem;
 `;

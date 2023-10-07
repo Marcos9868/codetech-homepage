@@ -1,18 +1,18 @@
 import React from 'react'
-import { Container } from './Style'
+import { Container, Menu } from './Style'
 
 function Header() {
   return (
     <Container>
       <section>
-        <img src="" alt="" />
+        <h1>Logo Codetech</h1>
       </section>
       <section>
-        <ul>
+        <Menu>
           <li>Quem Somos</li>
           <li>Produtos</li>
           <li>Contato</li>
-        </ul>
+        </Menu>
       </section>
     </Container>
   )
